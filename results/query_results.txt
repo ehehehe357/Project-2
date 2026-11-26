@@ -1,0 +1,15 @@
+Q01 | eligible(lan, hoc_may) | - | PROVABLE | proof_q01.txt
+Q02 | recommended(lan, hoc_may) | - | PROVABLE | proof_q02.txt
+Q03 | priority_recommend(lan, hoc_may) | - | PROVABLE | proof_q03.txt
+Q04 | prerequisite(python, do_an_khoa_hoc_du_lieu) | - | PROVABLE | proof_q04.txt
+Q05 | candidate(minh, truc_quan_du_lieu) | - | PROVABLE | proof_q05.txt
+Q06 | eligible(ngoc, co_so_du_lieu) | - | NOT_PROVABLE | -
+Q07 | recommended(minh, truc_quan_du_lieu) | - | NOT_PROVABLE | -
+Q08 | prerequisite(do_an_khoa_hoc_du_lieu, python) | - | NOT_PROVABLE | -
+Q09 | eligible(phuc, Course) | Course=[co_so_du_lieu, xac_suat_thong_ke, hoc_may, truc_quan_du_lieu, khai_pha_du_lieu] | PROVABLE | proof_q09.txt
+Q10 | prerequisite(Prereq, do_an_khoa_hoc_du_lieu) | Prereq=[hoc_may, truc_quan_du_lieu, co_so_du_lieu, xac_suat_thong_ke, python, dai_so_tuyen_tinh] | PROVABLE | proof_q10.txt
+SQ01 | eligible(quynh, do_an_khoa_hoc_du_lieu) | - | PROVABLE | proof_sq01.txt
+SQ02 | priority_recommend(quynh, do_an_khoa_hoc_du_lieu) | - | PROVABLE | proof_sq02.txt
+SQ03 | prerequisite(dai_so_tuyen_tinh, khai_pha_du_lieu) | - | PROVABLE | proof_sq03.txt
+SQ04 | eligible(phuc, do_an_khoa_hoc_du_lieu) | - | NOT_PROVABLE | -
+SQ05 | recommended(lan, Course) | Course=[hoc_may] | PROVABLE | proof_sq05.txt
